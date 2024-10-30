@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+
+    <style>
+/*
+
+# é um id 
+. é um class
+: é um pseudo-class
+:: é um pseudo-elemento
+> é um chieldren(filho)*/
+
+body{
+    background-color: blanchedalmond;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.4em;
+    }
+
+    a{
+        color: blue;
+        text-decoration: none;
+        
+    }
+
+    a:hover{
+       background-color: rgb(138, 234, 155);
+        text-decoration: underline;
+    
+            }
+
+    a:visited {
+        color: rgb(4, 26, 12);
+    }   
+    
+    a:active{
+        color: aqua;
+    }
+
+    a::after{
+        content: '[link]';
+        color: rgb(126, 215, 96);
+    }
+
+    .especial{
+        background-color: rgba(0, 255, 255, 0.429);
+    }
+
+    .especial:hover{
+        background-color: blueviolet;
+    }
+
+    
+    </style>
+</head>
+<body>
+    <h1>Criando links</h1>
+
+    <div>
+        <ul>
+            <li><a href="https://www.youtube.com/watch?v=vMlrcOVr7po&t=746s&ab_channel=CursoemV%C3%ADdeo" class="especial">Acesso para o Youtube</a></li>
+            <li><a href="https://github.com/gustavoguanabara/html-css/blob/master/aulas-pdf/15%20-Seletores%20personalizados.pdf">Acesso para o Github</a></li>
+            
+            <li><a href="https://www.cursoemvideo.com/curso/curso-html5-e-css3-modulo-2-de-5-40-horas/aulas/modulo-2-2/modulos/capitulo-15-aula-04-pseudo-elementos-em-css/">Acesso para o Meu curso em video</a></li>
+            </a>
+        
+        </ul>
+    </div>
+</body>
+</html>

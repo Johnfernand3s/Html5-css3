@@ -1,0 +1,58 @@
+@charset "UTF-8";
+
+/*  Em Html é id  = # em css
+    Em Html é class = . em css 
+*/
+body {
+
+    background-color:#2F7594;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+}
+
+h1{
+    color: #15B4FA;
+}
+
+#tag{ 
+text-align: center;
+color: white;
+background-color: #2797C7;
+text-shadow: 1px 2px rgba(168, 130, 60, 0.616);
+border-radius: 50px;
+
+}
+
+h2{
+    color:#2D3133;
+}
+
+p{
+    color: white;
+}
+
+.basico{
+color: rgb(78, 166, 49);
+}
+
+.intermediario{
+    color: rgb(215, 195, 68);
+}
+
+.avançado{
+    color: rgb(106, 37, 37);
+}
+
+.sub{
+    background-color: #2198cb83;
+    text-align: center;
+    border-radius: 12px;
+}
+
+.titulo{
+color: rgb(240, 152, 90);
+}
+
+.titulo2{
+color: rgba(8, 75, 200, 0.818);
+}

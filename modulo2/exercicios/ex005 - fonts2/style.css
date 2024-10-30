@@ -1,0 +1,43 @@
+@charset "uft-8";
+
+
+@font-face {
+    font-family: 'Doctor Glitch';
+    src: url('Doctor Glitch.otf') format('opentype');
+
+    font-weight: 700;
+    font-size: 3em;
+    font-style: italic;
+}
+
+
+body{
+    text-align: left;
+    background-color: blanchedalmond;
+}
+    h1,h2,h3{ 
+
+        font-family: "Doctor Glitch";
+        font-weight: 700;
+        font-size: 3em;
+        font-style: italic;
+        text-align: center;
+   
+    }
+
+    h3{
+        text-align: center;
+    }
+
+    p{
+
+        font-family: sans-serif;
+        font-weight: 200;
+        font-size: 2em;
+        text-align: justify;
+        
+        /*Utilizado para fazer um recuor no paragrafo*/
+        text-indent: 30px;
+    }
+
+    

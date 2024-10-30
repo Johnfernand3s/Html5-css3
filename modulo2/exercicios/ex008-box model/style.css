@@ -1,0 +1,52 @@
+@charset "utf-8";
+
+h1{
+background-color: rgba(124, 103, 103, 0.797);
+width: 400px;
+height: 400px;
+
+/*Handsshort ordens for Border
+
+1.border-width: 12px;
+2.border-style: solid; (double,groove,dashed, dotted)
+3.border-color: blueviolet;
+*/
+
+border: 12px groove blueviolet;
+
+/*Handshort ordens for Margin
+
+margin-top: 12px;
+margin-right: 12px;
+margin-bottom: 12px;
+margin-left: 12px;
+*/
+
+margin: 12px 12px 12px 12px;
+
+/*Handshort ordens for Padding
+
+padding-top: 15px;
+padding-right: 15px;
+padding-bottom: 15px;
+padding-left: 15px;*/
+
+padding: 15px 15px 15px 15px;
+
+/*Handshort ordens for outline
+
+outline-width: 12px;
+outline-color: red;
+outline-style: dashed;
+*/
+
+outline: 12px red dashed;
+}
+
+
+a{/*inline-level não aceita width e height*/ 
+    
+    background-color: red;
+    
+
+}
